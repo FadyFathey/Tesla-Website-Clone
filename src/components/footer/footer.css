@@ -1,0 +1,44 @@
+footer {
+  width: 594px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 450px;
+  justify-content: space-between;
+  position: absolute;
+  
+}
+footer ul {
+  cursor: pointer;
+}
+/* mobile view */
+@media (max-width: 768px) {
+  footer {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    margin-left: -1px;
+    line-height: 1.6;
+    
+  }
+}
+/* tablets view */
+@media (min-width: 992px) and (max-width: 1200px) {
+  footer {
+    margin-left: 200px;
+    overflow-x: hidden;
+  }
+}
+/* large view */
+@media (min-width: 1200px) {
+}

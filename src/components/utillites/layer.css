@@ -1,0 +1,120 @@
+section.head {
+  position: fixed;
+  width: 604px;
+  height: 529px;
+  top: 94px;
+  left: 488px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 390px;
+}
+
+.head .up {
+  width: 330px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.head .up span {
+  font-size: 40px;
+}
+.head .up p {
+  font-size: 20px;
+}
+.head .bottom {
+  width: 579px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.head .bottom .btn1 {
+  background-color: rgba(34, 34, 34, 0.8);
+  color: white;
+  backdrop-filter: blur(8px);
+  width: 260px;
+  height: 32px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.head .bottom .btn2 {
+  background-color: rgba(255, 255, 255, 0.65);
+  color: black;
+  backdrop-filter: blur(8px);
+  width: 260px;
+  height: 32px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* start media */
+@media (min-width: 390px) and (max-width: 480px) {
+  section.head {
+    margin-left: -590px;
+    height: 500px;
+  }
+  .head .up {
+    width: 300px;
+    height: 600px;
+  }
+  .head .up p {
+    text-align: center;
+    width: 400px;
+  }
+  .head .up span {
+    font-size: 30px;
+  }
+
+  .head .bottom {
+    flex-direction: column;
+    height: 200px;
+    margin-top: -300px;
+  }
+  .head .bottom .btn1 {
+    height: 35px;
+  }
+  .head .bottom .btn2 {
+    height: 35px;
+  }
+}
+@media (min-width: 481) and (max-width: 766px) {
+  section.head {
+    margin-left: -400px;
+    height: 900px;
+  }
+  .head .bottom {
+    flex-direction: column;
+    height: 200px;
+  }
+  .head .bottom .btn1 {
+    height: 35px;
+  }
+  .head .bottom .btn2 {
+    height: 35px;
+  }
+}
+@media (min-width: 767px) and (max-width: 888px) {
+  section.head {
+    margin-left: -384px;
+  }
+}
+@media (min-width: 888px) and (max-width: 1209px) {
+  section.head {
+    margin-left: -190px;
+  }
+}

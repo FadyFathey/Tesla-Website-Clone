@@ -1,0 +1,20 @@
+.sec-2 {
+  width: 100%;
+  margin-top: -4px;
+  height: 690px;
+}
+.sec-2 img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .sec-2 {
+    height: 700px;
+  }
+  .sec-2 img {
+    width: 100vw;
+    height: 100vh;
+  }
+}
