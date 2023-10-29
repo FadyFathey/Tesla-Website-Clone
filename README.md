@@ -1,3 +1,8 @@
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+    <h2 style="text-align: center;">on desktop view</h2>
+    <img src="../tesla-clone/src/assets/desctop-tesla.png" alt="Image" style="max-width: 100%; height: auto;">
+</div>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
